@@ -64,7 +64,7 @@ def test_check_positive():
     with pytest.raises(MyException): 
         result = demo.check_positive(-100)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     demo = ExceptionsDemo()
 
     demo.divide(10, 0)   
